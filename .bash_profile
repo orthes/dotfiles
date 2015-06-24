@@ -1,3 +1,7 @@
+# z beats cd most of the time.
+#   github.com/rupa/z
+# Load z before .extra so it can be used there
+source ~/code/z/z.sh
 
 # Load our dotfiles like ~/.bash_prompt, etc…
 #   ~/.extra can be used for settings you don’t want to commit,
@@ -46,10 +50,6 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
-
-# z beats cd most of the time.
-#   github.com/rupa/z
-source ~/code/z/z.sh
 
 
 
